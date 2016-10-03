@@ -1,4 +1,5 @@
 FROM webdevops/php-nginx:centos-7-php56
+MAINTAINER Jerson Stivel Gomez Urrego
 RUN yum install -y  php56w-pgsql
 ENV HOST_DB_PGSQL=postgres_db
 ENV PASS_DB_PGSQL=dockerpostgres
