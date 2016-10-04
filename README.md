@@ -27,7 +27,7 @@ Ejemplo de utilizar el comando:
 
 El path donde seran alojados nuestros sitios es <b>/app</b> en el cual en primera instancia se encontrara un archivo <b>index.php</b> con toda la informacion phpinfo(); ademas de un archivo <b>conexion.php</b> para probar nuestro enlace al servidor de base de datos postgres<br/><br/>
 
-Si desea conecer la ip que tiene asignado nuestro contenedor puede ejecutar el siguiente comando:
+Si desea conocer la ip que tiene asignado nuestro contenedor puede ejecutar el siguiente comando:
 <ul type="disk">
 <li>docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $i <b>name_container/id_container</b></li>
 </ul>
